@@ -15,9 +15,18 @@ sudo apt-get install nasm
 
 To compile:
 
-		nasm -f elf64 -o filename.o filename.asm
-		ld filename.o -o filename
+		1st method:
+			nasm -f elf64 -o filename.o filename.asm
+			ld filename.o -o filename
+
+		2nd method:
+			nasm -f elf64 -g filename.asm
+			ld -g filename.o
 
 To run:		
 
-		./filename
+		1st method:
+			./filename
+
+		2nd method:
+			./a.out
