@@ -1,5 +1,5 @@
 section .data 
-	message db "Hello",10	;print message Hello  10 or 0x0a -> newline
+	message db "Hello",10	;print message Hello  10 or 0x0a => newline
 	len equ $ - message	;length of the message
 
 section .text			;section declaration
