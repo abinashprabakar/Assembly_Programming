@@ -5,11 +5,11 @@
 <p>The ARM architecture is a widely used 32-bit RISC processor architecture. In fact, the ARM family accounts for about 75% of all 32-bit CPUs and about 90% of all embedded 32-bit CPUs. ARM cores are widely used in mobile phones, handheld
 organizers, and a multitude of other everyday portable consumer devices.</p>
 
-	Some cores offered by ARM are ARM7TDMI, ARM9, ARM11. ARM's designers have come a long way from the first ARM1
+<p> Some cores offered by ARM are ARM7TDMI, ARM9, ARM11. ARM's designers have come a long way from the first ARM1
 prototype in 1985. One of the most successful cores is the ARM7TDMI. It provides upto 120 Dhrystone MIPS (Dhrystone is
 the name of a standardised a very old benchmark software, it gives as result the measured number of MIPS, where MIPS is
 Million Instructions Per Second) and is known for its high code density and low power consumption, making it ideal for
-mobile embedded devices.
+mobile embedded devices.</p>
 
 <b> 1.1 The RISC design Philosophy </b>
 
