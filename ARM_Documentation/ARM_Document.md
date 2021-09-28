@@ -93,4 +93,85 @@ vi) ARM core is not pure RISC architecture.
 <p> Embedded systems can control many different devices, from small sensors found on a production line, to the
 real-time control systems used on NASA space prob.
 
-<h2> ARM Bus Technology </h2>
+<h2> 1.3.1 ARM Bus Technology </h2>
+
+<img src = "https://www.rfwireless-world.com/images/ARM-Bus-technology.jpg">
+<p> There are two different classes of devices attached to the bus. The ARM processor core is a bus master - a logical
+device capable of initiating a data transfer with another device across the same bus. Peripherals tend to be a bus
+slaves - logical devices capable only of responding to a transfer request from a bus master device.</p>
+
+<h2> 1.3.2 AMBA Bus protocol </h2>
+
+<p> AMBA stands for Advanced Microcontroller Bus Architecture. AMBA specification specifies an on chip communication standard. This is used to design embedded microcontrollers with high performance.</p>
+
+<h2> 1.3.3 Memory </h2>
+<b> 1.3.3.1 Hierarchy </b>
+
+<p> A memory hierarchy refers to a hierarchy of memory types, with faster and smaller memories closer to the core and
+slower and larger memory farther away. In most systems, you can have secondary storage, such as disk drives and
+primary storage such as Flash, SRAM and DRAM. In embedded systems, you typically sub-divide this into on-chip and
+off-chip memory. Memory that is on the same chip (or at least in the same package) as the core will typically be much
+faster.</p>
+
+<b> 1.3.3.2 Width </b>
+
+<p>Memory width is the number of bits the memory returns on each access-typically 8, 16, 32, or 64 bits.
+
+The memory width has a direct effect on the overall performance and cost ratio. Following table covers fetching
+instructions from memory.
+
+Instruction size	8 bit memory	16 bit memory	32 bit memory
+   ARM 32 bit		  4 cycles	  2 cycles	   1 cycle
+   Thumb 16 bit		  2 cycles	  1 cycle	   1 cycle
+</p>
+
+<h3> Types of Memory </h3>
+
+<h3> ROM (Read Only Memory) </h3>
+
+<p> ROM stands for Read Only Memory. The memory from which we can only read but cannot write on it. This type of memory
+is non-volatile. The information is stored permanently in such memories during manufacture. A ROM stores such
+instructions that are required to start a computer. This operation is referred to as bootstrap. ROM chips are not only
+used in the computer but also in other electronic items like washing machine and microwave oven.</p>
+
+<h3> Flash ROM </h3>
+
+<p> special type of memory that works like both RAM and ROM. You can write information to flash memory, like you can
+with RAM, but that information isn’t erased when the power is off, like it is with ROM. The erasing and writing of
+flash ROM are completely software controlled with no additional hardware circutary required, Which reduces the
+manufacturing costs.</p>
+
+<h3> DRAM </h3>
+
+<p> Dynamic random access memory (DRAM) is the most commonly used RAM for devices. It has the lowest cost per megabyte
+compared with other types of RAM. DRAM is dynamic- it needs to have its storage cells refreshed and given a new
+electronic charge every few milliseconds, so you need to set up a DRAM controller before using the memory.</p>
+
+<h3> SRAM </h3>
+
+<p> Static random access memory (SRAM) is faster than the more traditional DRAM, but requires more silicon area. SRAM
+is static-the RAM does not require refreshing.</p>
+
+<h3> SDRAM </h3>
+
+<p> SDRAM stands for Synchronous Dynamic Random Access Memory. It is one of the DRAM type. It runs at high clock speed
+compare to conventional memory. It gets synchronize with processor bus as SDRAM is clocked.</p>
+
+<h2> ARM Peripherals </h2>
+
+<p> Embedded System that interact with the outside world need some form of peripheral device. A peripheral device
+performs input and output functions for the chip by connecting to other devices or sensors that aree off-chip.</p>
+
+<h2> Interrupt Controllers </h2>
+
+<p> When a peripheral or device requires attention, it raises an interrupt to the processor. There are two types of
+interrupt controllers avaiable for the ARM processor. The standard interrupt controller and the Vector interrupt
+controller(VIC).
+
+The standard interrupt controller sends an interrupt signal to the processor core when an external device request
+servicing.
+
+Nested vector interrupt control (NVIC) is a method of prioritizing interrupts, improving the MCU’s performance and
+reducing interrupt latency. NVIC also provides implementation schemes for handling interrupts that occur when other
+interrupts are being executed or when the CPU is in the process of restoring its previous state and resuming its
+suspended process.</p>
