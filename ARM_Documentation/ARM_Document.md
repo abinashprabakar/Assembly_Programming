@@ -2,9 +2,8 @@
 
 <b> 1. ARM Embedded System </b>
 
-	The ARM architecture is a widely used 32-bit RISC processor architecture. In fact, the ARM family accounts for
-about 75% of all 32-bit CPUs and about 90% of all embedded 32-bit CPUs. ARM cores are widely used in mobile phones,
-handheld organizers, and a multitude of other everyday portable consumer devices.
+<p>The ARM architecture is a widely used 32-bit RISC processor architecture. In fact, the ARM family accounts for about 75% of all 32-bit CPUs and about 90% of all embedded 32-bit CPUs. ARM cores are widely used in mobile phones, handheld
+organizers, and a multitude of other everyday portable consumer devices.</p>
 
 	Some cores offered by ARM are ARM7TDMI, ARM9, ARM11. ARM's designers have come a long way from the first ARM1
 prototype in 1985. One of the most successful cores is the ARM7TDMI. It provides upto 120 Dhrystone MIPS (Dhrystone is
