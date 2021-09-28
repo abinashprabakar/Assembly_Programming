@@ -1,6 +1,6 @@
-#ARM Documentation
+# ARM Documentation
 
-<b> 1. ARM Embedded System </b>
+<h2> 1. ARM Embedded System </h2>
 
 <p>The ARM architecture is a widely used 32-bit RISC processor architecture. In fact, the ARM family accounts for about 75% of all 32-bit CPUs and about 90% of all embedded 32-bit CPUs. ARM cores are widely used in mobile phones, handheld
 organizers, and a multitude of other everyday portable consumer devices.</p>
@@ -11,7 +11,7 @@ the name of a standardised a very old benchmark software, it gives as result the
 Million Instructions Per Second) and is known for its high code density and low power consumption, making it ideal for
 mobile embedded devices.</p>
 
-<b> 1.1 The RISC design Philosophy </b>
+<h2> 1.1 The RISC design Philosophy </h2>
 
 <p>ARM core uses RISC architecture. An ARM processor is one of a family of CPU's based on the RISC (Reduced
 Instruction Set Computer) architecture developed by the Advanced RISC Machines. Because of their reduced instruction
@@ -22,7 +22,8 @@ provide greater flexibility and intelligence in software rather than hardware. A
 The RISC philosophy is implemented with four major design rules:
 
 		1. Instructions:
-			RISC processors have a reduced number of instruction classes. These classes provide simple opera		tions that can each execute in a single cycle.
+			RISC processors have a reduced number of instruction classes. These classes provide simple
+			operations that can each execute in a single cycle.
 
 		2. Pipelines:		
 			A pipelining is the mechanism used by RISC processors to execute instructions, by speeding up
@@ -49,7 +50,7 @@ The RISC philosophy is implemented with four major design rules:
 		These design rules allow a RISC processor to be simpler, and thus the core can operate at higher clock
 		frequencies.
 
-<b> 1.2 The ARM Design Philosophy </b>
+<h2> 1.2 The ARM Design Philosophy </h2>
 
 i) There are a number of physical features that have driven the ARM processor design. The ARM processor has been
 specifically designed to be small to reduce power cosumption and extend battery operation.
@@ -65,7 +66,7 @@ v) Hardware debug technology - to view what is happening while the processor is 
 
 vi) ARM core is not pure RISC architecture.
 
-<b> 1.2.1 Instruction set for embedded system </b>
+<h2> 1.2.1 Instruction set for embedded system </h2>
 
 		1. Variable cycle execution for certain instructions - Not every ARM instructions executes in a single
 		cycle. For example, load-store multiple instructions vary in the number of execution cycles depending
@@ -86,10 +87,10 @@ vi) ARM core is not pure RISC architecture.
 		standard ARM instruction set to support fast 16x16-bit multiplier operation. These instructions allow
 		faster-performing ARM Processor.
 
-<b> 1.3 Embedded System Hardware </b>	
+<h2> 1.3 Embedded System Hardware </h2>	
 
 <img src = "https://bnmbiw.files.wordpress.com/2013/01/embedded-hardware.png?w=640">
 <p> Embedded systems can control many different devices, from small sensors found on a production line, to the
 real-time control systems used on NASA space prob.
 
-<b> ARM Bus Technology </b>
+<h2> ARM Bus Technology </h2>
