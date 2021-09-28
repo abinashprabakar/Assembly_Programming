@@ -13,11 +13,11 @@ mobile embedded devices.</p>
 
 <b> 1.1 The RISC design Philosophy </b>
 
-	ARM core uses RISC architecture. An ARM processor is one of a family of CPU's based on the RISC (Reduced
+<p>ARM core uses RISC architecture. An ARM processor is one of a family of CPU's based on the RISC (Reduced
 Instruction Set Computer) architecture developed by the Advanced RISC Machines. Because of their reduced instruction
 set, they require fewer transistors, which enables a smaller die size for the integrated circuit(IC). The RISC
 philosophy concentrates on reducing the complexity of instructions performed by the hardware because it is easier to
-provide greater flexibility and intelligence in software rather than hardware. As a result, a RISC design places greaterdemands on the compiler.
+provide greater flexibility and intelligence in software rather than hardware. As a result, a RISC design places greaterdemands on the compiler.</p>
 
 The RISC philosophy is implemented with four major design rules:
 
