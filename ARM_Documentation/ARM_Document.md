@@ -87,6 +87,14 @@ vi) ARM core is not pure RISC architecture.
 		standard ARM instruction set to support fast 16x16-bit multiplier operation. These instructions allow
 		faster-performing ARM Processor.
 
+<h2> 16-bit thumb instruction set </h2>
+
+<p> The Thumb instruction set consists of 16-bit instructions that act as a compact shorthand for a subset of the 32-bit
+instructions of the standard ARM. Every Thumb instruction could instead be executed via the equivalent 32-bit ARM
+instruction.</p>
+
+<img src = "https://image.slidesharecdn.com/thumb-141119074824-conversion-gate02/95/armthumb-mode-10-638.jpg?cb=1416383346">
+
 <h2> Barrel Shifter </h2>
 
 Barrel Shifter in ARM Processor is a functional unit testing is used to perform the Shift and Rotate Operations.
