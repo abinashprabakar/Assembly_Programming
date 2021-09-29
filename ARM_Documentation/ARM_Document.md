@@ -154,7 +154,7 @@ RAM and CPU, it speeds up the system performance. </p>
 <h2> Types of Cache Memory </h2>
 
 <img src = "https://www.xtremegaminerd.com/wp-content/uploads/2018/01/Types-of-Cache-memory-featured-e1516774965763.png"
-width = "200">
+width = "1000">
 
 <p><b>L1:   </b>It is the first level of cache memory, which is called Level 1 cache or L1 cache. In this type of cache
 memory, a small amount of memory is present inside the CPU itself. If a CPU has four cores (quad core cpu), then each
