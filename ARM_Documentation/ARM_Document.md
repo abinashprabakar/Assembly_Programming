@@ -87,6 +87,18 @@ vi) ARM core is not pure RISC architecture.
 		standard ARM instruction set to support fast 16x16-bit multiplier operation. These instructions allow
 		faster-performing ARM Processor.
 
+<h2> Barrel Shifter </h2>
+---
+Barrel Shifter in ARM Processor is a functional unit testing is used to perform the Shift and Rotate Operations.
+
+Barrel Shifter provides five types of Shift and Rotate operations and they are:
+   1. Logical Shift Left (LSL)
+   2. Logical Shift Right (LSR)
+   3. Arithmetic Shift Right (ASR)
+   4. Rotate Right (ROR)
+   5. Rotate Right Extended (RRX)
+---
+
 <h2> 1.3 Embedded System Hardware </h2>	
 
 <img src = "https://bnmbiw.files.wordpress.com/2013/01/embedded-hardware.png?w=640">
@@ -126,6 +138,8 @@ Instruction size	8 bit memory	16 bit memory	32 bit memory
 </p>
 
 <h3> Types of Memory </h3>
+
+There are two types of memory i.e., Primary Memory and Secondary Memory.
 
 <h3> ROM (Read Only Memory) </h3>
 
