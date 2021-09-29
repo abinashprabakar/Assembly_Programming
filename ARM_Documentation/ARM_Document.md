@@ -152,6 +152,13 @@ electronic charge every few milliseconds, so you need to set up a DRAM controlle
 <p> Static random access memory (SRAM) is faster than the more traditional DRAM, but requires more silicon area. SRAM
 is static-the RAM does not require refreshing.</p>
 
+<h3> Double Data Rate SDRAM </h3>
+
+<p> This faster version of SDRAM performs its operations on both edges of the clock signal; whereas a standard SDRAM
+performs its operations on the rising edge of the clock signal. Since they transfer data on both edges of the clock,
+the data transfer rate is doubled. To access the data at high rate, the memory cells are organized into two groups.
+Each group is accessed separately.</p>
+
 <h3> SDRAM </h3>
 
 <p> SDRAM stands for Synchronous Dynamic Random Access Memory. It is one of the DRAM type. It runs at high clock speed
