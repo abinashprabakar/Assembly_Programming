@@ -88,7 +88,6 @@ vi) ARM core is not pure RISC architecture.
 		faster-performing ARM Processor.
 
 <h2> Barrel Shifter </h2>
----
 
 Barrel Shifter in ARM Processor is a functional unit testing is used to perform the Shift and Rotate Operations.
 
